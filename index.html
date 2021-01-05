@@ -1,0 +1,129 @@
+<html>
+<head>
+	<title>Gym management system</title>
+	<link href="index.css" type="text/css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/eddb3606d6.js" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+	<div class=" wrapper">
+		<div class="nav-bar">
+			<nav class="navbar navbar-light bg-light">
+				<div class="container-fluid">
+					<a class="navbar-brand"><i class="fas fa-dumbbell"></i>Gym Management System</a>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</nav>
+		</div>
+
+		<div class="container-main">
+			<div class="container-main-one">
+				<ul>
+					<li><a href="index.html"><i class="fas fa-user-friends"></i>Staff Members</a></li>
+					<li><a href="schedule.html"><i class="fas fa-clipboard-list"></i>Class schedule</a></li>
+					<li><a href="product.html"><i class="fab fa-product-hunt"></i>Product</a></li>
+					<li><a href="workout.html"><i class="fas fa-running"></i>Workouts</a></li>
+					<li><a href="#"><i class="fas fa-paste"></i>Attendance</a></li>
+				</ul>
+			</div>
+
+			<div class="container-main-two">
+				<div class="container-main-two-button">
+					<button type="button" class="btn btn-outline-primary"><i class="fas fa-user-plus"></i>Add Staff Members</button>
+				</div>
+				<div class = container-main-two-memberhead>
+					<nav class="nav nav-pills nav-justified">
+						<a class="nav-link active" aria-current="page" href="index.html">Staff Members</a>
+						<a class="nav-link" href="members.html">Gym Members</a>
+					</nav>
+				</div>
+				<div class="container-main-two-table">
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th scope="col">#</th>
+								<th scope="col">First Name</th>
+								<th scope="col">Last Name</th>
+								<th scope="col">Age</th>
+								<th scope="col">Gender</th>
+								<th scope="col">Joined Date</th>
+								<th scope="col">Resigned Date</th>
+								<th scope="col">Shift</th>
+								<th scope="col">Salary</th>
+								<th scope="col">Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Evans</td>
+								<td>30</td>
+								<td>Male</td>
+								<td>01-Jan-2018</td>
+								<td>--</td>
+								<td>Morning</td>	
+								<td>$4500</td>
+								<td><i class="fas fa-user-edit"></i><i class="fas fa-user-times" style="color:#F70D1A;"></i></td>	
+
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Samantha</td>
+								<td>Thornton</td>
+								<td>25</td>
+								<td>Female</td>
+								<td>12-March-2019</td>
+								<td>--</td>
+								<td>Morning</td>
+								<td>$6000</td>
+								<td><i class="fas fa-user-edit"></i><i class="fas fa-user-times" style="color:#F70D1A;"></i></td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Toby</td>
+								<td>Mcguire</td>
+								<td>26</td>
+								<td>Male</td>
+								<td>25-April-2018</td>
+								<td>--</td>
+								<td>Evening</td>
+								<td>$4500</td>
+								<td><i class="fas fa-user-edit"></i><i class="fas fa-user-times" style="color:#F70D1A;"></i></td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td>Larry</td>
+								<td>Page</td>
+								<td>24</td>
+								<td>Male</td>
+								<td>01-Feb-2018</td>
+								<td>--</td>
+								<td>Evening</td>
+								<td>$5000</td>
+								<td><i class="fas fa-user-edit"></i><i class="fas fa-user-times" style="color:#F70D1A;"></i></td>
+							</tr><tr>
+								<th scope="row">5</th>
+								<td>Michelle</td>
+								<td>Johanson</td>
+								<td>28</td>
+								<td>Female</td>
+								<td>03-Feb-2018</td>
+								<td>--</td>
+								<td>Morning</td>
+								<td>$5000</td>
+								<td><i class="fas fa-user-edit"></i><i class="fas fa-user-times" style="color:#F70D1A;"></i></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>
